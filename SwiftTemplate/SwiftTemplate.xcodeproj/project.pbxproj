@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8759FE052394F1D100A44B5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE042394F1D100A44B5C /* AppDelegate.swift */; };
-		8759FE072394F1D100A44B5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE062394F1D100A44B5C /* ViewController.swift */; };
 		8759FE0A2394F1D100A44B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759FE082394F1D100A44B5C /* Main.storyboard */; };
 		8759FE0C2394F1D200A44B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8759FE0B2394F1D200A44B5C /* Assets.xcassets */; };
 		8759FE0F2394F1D200A44B5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759FE0D2394F1D200A44B5C /* LaunchScreen.storyboard */; };
@@ -23,12 +22,16 @@
 		8759FE3B2394F35E00A44B5C /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE3A2394F35E00A44B5C /* HomeDatasource.swift */; };
 		8759FE3D2394F36C00A44B5C /* ViewControllerExtenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE3C2394F36C00A44B5C /* ViewControllerExtenstion.swift */; };
 		8759FE3F2394F37500A44B5C /* UserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE3E2394F37500A44B5C /* UserExtension.swift */; };
+		8759FE422394F4F300A44B5C /* Dependences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE412394F4F300A44B5C /* Dependences.swift */; };
+		8759FE442394F50000A44B5C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8759FE432394F50000A44B5C /* Alamofire.framework */; };
+		8759FE4A2394F53B00A44B5C /* BaseDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE492394F53B00A44B5C /* BaseDatasource.swift */; };
+		8759FE4C2394F54500A44B5C /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE4B2394F54500A44B5C /* BaseViewModel.swift */; };
+		8759FE4E2394F55300A44B5C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE4D2394F55300A44B5C /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8759FE012394F1D100A44B5C /* SwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8759FE042394F1D100A44B5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8759FE062394F1D100A44B5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8759FE092394F1D100A44B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8759FE0B2394F1D200A44B5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8759FE0E2394F1D200A44B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +47,11 @@
 		8759FE3A2394F35E00A44B5C /* HomeDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		8759FE3C2394F36C00A44B5C /* ViewControllerExtenstion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtenstion.swift; sourceTree = "<group>"; };
 		8759FE3E2394F37500A44B5C /* UserExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtension.swift; sourceTree = "<group>"; };
+		8759FE412394F4F300A44B5C /* Dependences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependences.swift; sourceTree = "<group>"; };
+		8759FE432394F50000A44B5C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		8759FE492394F53B00A44B5C /* BaseDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDatasource.swift; sourceTree = "<group>"; };
+		8759FE4B2394F54500A44B5C /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		8759FE4D2394F55300A44B5C /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759FE442394F50000A44B5C /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +166,7 @@
 		8759FE1D2394F20C00A44B5C /* Dependences */ = {
 			isa = PBXGroup;
 			children = (
+				8759FE412394F4F300A44B5C /* Dependences.swift */,
 			);
 			path = Dependences;
 			sourceTree = "<group>";
@@ -181,8 +191,8 @@
 		8759FE202394F23700A44B5C /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8759FE062394F1D100A44B5C /* ViewController.swift */,
 				8759FE362394F34B00A44B5C /* HomeViewController.swift */,
+				8759FE4D2394F55300A44B5C /* BaseViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -191,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				8759FE382394F35500A44B5C /* HomeViewModel.swift */,
+				8759FE4B2394F54500A44B5C /* BaseViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -199,6 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				8759FE3A2394F35E00A44B5C /* HomeDatasource.swift */,
+				8759FE492394F53B00A44B5C /* BaseDatasource.swift */,
 			);
 			path = Datasources;
 			sourceTree = "<group>";
@@ -254,6 +266,7 @@
 		8759FE292394F2A400A44B5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8759FE432394F50000A44B5C /* Alamofire.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -336,8 +349,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8759FE072394F1D100A44B5C /* ViewController.swift in Sources */,
 				8759FE3D2394F36C00A44B5C /* ViewControllerExtenstion.swift in Sources */,
+				8759FE4A2394F53B00A44B5C /* BaseDatasource.swift in Sources */,
 				8759FE2F2394F31700A44B5C /* UserRepositoryImpl.swift in Sources */,
 				8759FE3F2394F37500A44B5C /* UserExtension.swift in Sources */,
 				8759FE312394F32200A44B5C /* UserService.swift in Sources */,
@@ -346,7 +359,10 @@
 				8759FE352394F33B00A44B5C /* DBUser.swift in Sources */,
 				8759FE3B2394F35E00A44B5C /* HomeDatasource.swift in Sources */,
 				8759FE372394F34B00A44B5C /* HomeViewController.swift in Sources */,
+				8759FE422394F4F300A44B5C /* Dependences.swift in Sources */,
+				8759FE4C2394F54500A44B5C /* BaseViewModel.swift in Sources */,
 				8759FE332394F32B00A44B5C /* UserServiceImpl.swift in Sources */,
+				8759FE4E2394F55300A44B5C /* BaseViewController.swift in Sources */,
 				8759FE2D2394F2FC00A44B5C /* UserRepository.swift in Sources */,
 				8759FE2B2394F2ED00A44B5C /* User.swift in Sources */,
 			);
@@ -495,7 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTemplate/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftTemplate/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftTemplate/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -512,7 +532,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SwiftTemplate/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwiftTemplate/Frameworks",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SwiftTemplate/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
