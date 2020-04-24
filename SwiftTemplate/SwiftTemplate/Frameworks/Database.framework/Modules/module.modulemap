@@ -1,0 +1,11 @@
+framework module Database {
+  umbrella header "Database.h"
+
+  export *
+  module * { export * }
+}
+
+module Database.Swift {
+    header "Database-Swift.h"
+    requires objc
+}
