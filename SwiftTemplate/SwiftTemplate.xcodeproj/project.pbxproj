@@ -15,6 +15,9 @@
 		607E2F83245292B4001B4A10 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 607E2F7824529282001B4A10 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		607E2F84245292C1001B4A10 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8759FE432394F50000A44B5C /* Alamofire.framework */; };
 		607E2F85245292C1001B4A10 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8759FE432394F50000A44B5C /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		607E2F8A2452944E001B4A10 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E2F872452944E001B4A10 /* DataExtension.swift */; };
+		607E2F8B2452944E001B4A10 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E2F882452944E001B4A10 /* ColorExtension.swift */; };
+		607E2F8C2452944E001B4A10 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607E2F892452944E001B4A10 /* UIViewExtension.swift */; };
 		8759FE052394F1D100A44B5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8759FE042394F1D100A44B5C /* AppDelegate.swift */; };
 		8759FE0A2394F1D100A44B5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8759FE082394F1D100A44B5C /* Main.storyboard */; };
 		8759FE0C2394F1D200A44B5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8759FE0B2394F1D200A44B5C /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		607E2F7724529282001B4A10 /* Database.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Database.framework; sourceTree = "<group>"; };
 		607E2F7824529282001B4A10 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		607E2F7924529282001B4A10 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		607E2F872452944E001B4A10 /* DataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		607E2F882452944E001B4A10 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		607E2F892452944E001B4A10 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		8759FE012394F1D100A44B5C /* SwiftTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8759FE042394F1D100A44B5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8759FE092394F1D100A44B5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -288,6 +294,9 @@
 		8759FE282394F28B00A44B5C /* FoundationExtension */ = {
 			isa = PBXGroup;
 			children = (
+				607E2F882452944E001B4A10 /* ColorExtension.swift */,
+				607E2F872452944E001B4A10 /* DataExtension.swift */,
+				607E2F892452944E001B4A10 /* UIViewExtension.swift */,
 				8759FE3C2394F36C00A44B5C /* ViewControllerExtenstion.swift */,
 			);
 			path = FoundationExtension;
@@ -407,6 +416,7 @@
 				8759FE3D2394F36C00A44B5C /* ViewControllerExtenstion.swift in Sources */,
 				8759FE4A2394F53B00A44B5C /* BaseDatasource.swift in Sources */,
 				8759FE2F2394F31700A44B5C /* UserRepositoryImpl.swift in Sources */,
+				607E2F8B2452944E001B4A10 /* ColorExtension.swift in Sources */,
 				8759FE3F2394F37500A44B5C /* UserExtension.swift in Sources */,
 				8759FE312394F32200A44B5C /* UserService.swift in Sources */,
 				8759FE392394F35500A44B5C /* HomeViewModel.swift in Sources */,
@@ -414,7 +424,9 @@
 				8759FE352394F33B00A44B5C /* DBUser.swift in Sources */,
 				8759FE3B2394F35E00A44B5C /* HomeDatasource.swift in Sources */,
 				8759FE372394F34B00A44B5C /* HomeViewController.swift in Sources */,
+				607E2F8A2452944E001B4A10 /* DataExtension.swift in Sources */,
 				8759FE422394F4F300A44B5C /* Dependences.swift in Sources */,
+				607E2F8C2452944E001B4A10 /* UIViewExtension.swift in Sources */,
 				8759FE4C2394F54500A44B5C /* BaseViewModel.swift in Sources */,
 				8759FE332394F32B00A44B5C /* UserServiceImpl.swift in Sources */,
 				8759FE4E2394F55300A44B5C /* BaseViewController.swift in Sources */,
